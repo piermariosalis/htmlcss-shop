@@ -1,0 +1,10 @@
+body{
+  width: 65%;
+  margin: auto;
+}
+
+.ipad, .iphone, .beats{
+  width: 300px;
+  height: 372px;
+  display: inline-block;
+}

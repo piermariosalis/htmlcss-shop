@@ -1,11 +1,53 @@
 body{
-  width: 65%;
+  background-color: grey;
+}
+
+.container{
+  width: 1000px;
   margin: auto;
 }
+
 
 .ipad, .iphone, .beats{
   width: 300px;
   height: 372px;
   display: inline-block;
   position: relative;
+  border-radius: 100px;
+}
+
+.discount{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.green{
+  background: green;
+}
+
+.red{
+  background: red;
+}
+
+.heart{
+  width: 100%;
+  color: red;
+  position: absolute;
+  bottom: 0;
+  font-size: 25px;
+  display: none;
+  text-align: center;
+}
+
+.ipad:hover .heart{
+  display: block;
+}
+
+.iphone:hover .heart{
+  display: block;
+}
+
+.beats:hover .heart{
+  display: block;
 }

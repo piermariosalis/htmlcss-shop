@@ -5,15 +5,18 @@ body{
 .container{
   width: 1000px;
   margin: auto;
+  box-sizing: border-box;
 }
 
+img{
+  border-radius: 10px;
+}
 
 .ipad, .iphone, .beats{
   width: 300px;
   height: 372px;
   display: inline-block;
   position: relative;
-  border-radius: 100px;
 }
 
 .discount{
@@ -24,10 +27,16 @@ body{
 
 .green{
   background: green;
+  border-radius: 3px;
+  border: 0.5px solid black;
+
 }
 
 .red{
   background: red;
+  border-radius: 3px;
+  border: 0.5px solid black;
+
 }
 
 .heart{
